@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+void b_alg(int *arr);
 int main()
 {
+	//رأس السؤال ذكر أن الأوبيريشن تتم على هذه ال5 أرقام
 	int arr[] = {6, 3, 9, 15, 2}, i;
 	b_alg(arr);
 	printf("Array after bubble algorithm: \n");
