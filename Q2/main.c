@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int sum;
+int SUM(int *pa, int *pb);
 int main()
 {
     int a,b;
