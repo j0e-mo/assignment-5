@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define N = 100;
+int scalar(int *a, int *b, int n);
 int main()
 {
     int n,i;
